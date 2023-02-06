@@ -10,16 +10,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class UserService {
+public class UserService implements UserServiceInt{
     @Autowired
     private UserRepository userRepository;
-
-    public List<UserLocationDTO> getAllUSerLocation(){
-        return userRepository.findAll()
-                .stream()
-                .map(this::convertEntitytoDTO)
-                .collect(Collectors.toList());
-    }
 
     private UserLocationDTO convertEntitytoDTO(User user){
         UserLocationDTO userLocationDTO = new UserLocationDTO();
@@ -30,5 +23,12 @@ public class UserService {
         userLocationDTO.setLongitude(user.getLocation().getLatitude());
 
         return userLocationDTO;
+    }
+
+    public List<UserLocationDTO> getAllUSerLocation(){
+        return userRepository.findAll()
+                .stream()
+                .map(this::convertEntitytoDTO)
+                .collect(Collectors.toList());
     }
 }
