@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class ModelApiResponse {
+
+    private HeaderResponse headers;
     private Object body;
-    private HeaderResponse headerResponse;
 }

@@ -5,9 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 
 @NoArgsConstructor
-@AllArgsConstructor
 @JsonInclude
 public class ApiResponse extends ModelApiResponse implements Serializable {
 
@@ -18,10 +18,11 @@ public class ApiResponse extends ModelApiResponse implements Serializable {
 
          headerResponse.setResponseCode(responseCode);
          headerResponse.setRequestRefId(referenceId);
+         headerResponse.setTimestamp(LocalDateTime.now().toString());
          headerResponse.setResponseMessage(responseMessage);
          headerResponse.setCustomerMessage(customerMessage);
 
-         apiResponse.setHeaderResponse(headerResponse);
+         apiResponse.setHeaders(headerResponse);
          apiResponse.setBody(responseBody);
          return apiResponse;
      }

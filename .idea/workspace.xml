@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="059544e4-5cf0-43d6-9b50-bc3f8af49570" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/dto/request/UserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/dto/response/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/dto/response/HeaderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/dto/response/ModelApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/service/UserServiceInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/service/dtoServices/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0fb33cdb-47a9-4204-8196-46b1a8db9b05.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0fb33cdb-47a9-4204-8196-46b1a8db9b05.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-dto-tutorial/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dto-tutorial/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/dto/response/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/dto/response/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/dto/response/ModelApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/dto/response/ModelApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/service/UserServiceInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/service/UserServiceInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/service/dtoServices/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-dto-tutorial/src/main/java/com/sity/msdtotutorial/service/dtoServices/UserDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675416352317</updated>
       <workItem from="1675416353660" duration="7121000" />
-      <workItem from="1675672945476" duration="5247000" />
+      <workItem from="1675672945476" duration="10992000" />
     </task>
     <servers />
   </component>

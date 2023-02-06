@@ -9,5 +9,4 @@ import java.util.List;
 public interface UserServiceInt {
 
     public List<UserLocationDTO> getAllUSerLocation();
-    public ModelApiResponse createUser(UserRequest userRequest);
 }
